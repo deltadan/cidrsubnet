@@ -1,8 +1,8 @@
 locals {
-    vnet_mgt_cidr = "192.168.0.0/20"
+  vnet_mgt_cidr = "192.168.0.0/20"
 }
-output "subnets" {
 
+output "subnets" {
   value = [
     {
       name = "subnet1"
@@ -12,6 +12,5 @@ output "subnets" {
       name = "subnet2"
       cidr = cidrsubnet(local.vnet_mgt_cidr, 4, 1)
     },
-
   ]
 }

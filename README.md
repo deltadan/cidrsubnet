@@ -2,7 +2,8 @@
 This simple function can be used to test the CIDR ranges that will be built by Terraform when using the [cidrsubnets](https://www.terraform.io/docs/configuration/functions/cidrsubnet.html) function.
 
 
-Instructions to run the function to use this CIDR tester
+## Instructions to run CIDR Tester
+
 1. Copy the cidrtest.tf into a folder with no other Terraform files.
 
 2. Update the CIDR range of the VNET
